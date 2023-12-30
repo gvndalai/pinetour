@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    display: flex;
+    width: 1440px;
+    padding: 8px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 1082px;
+    background-color: #101010;
+}
+.whole-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    padding-right: 120px;
+    padding-left: 120px ;
+}
+h1{
+    color: #303030;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.four-image{
+    display: flex;
+    justify-content: center;
+    gap: 66px;
+}
+.destination-of-our-agency{
+    display: flex;
+}
+.destination-card{
+    display: flex;
+    width: 400px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 8px;
+    border: 1px solid #101010;
+}
+.destination-card p{
+    color: #303030;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    
+}
+.destination-card p1{
+    color: #777;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.destination {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0;
+    gap: 10px;
+}
+.destination-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.destination-title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#Tours{
+    color: #1AC74A;
+    font-family: Nico Moji;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+#Agency-destinations{
+    color: #303030;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0   ;
+}
+.destination-plans{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+.khuvsgul-lake-trip{
+    padding-bottom: 276px;   
+}
+.destination-image{
+    width: 598px;
+    height: 894px;
+    border-radius: 12px;
+    position: absolute;
+    top: 0;
+    right: 120px;
+
+}
+.destination-of-our-agency{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 120px;
+    padding-left: 120px ;
+    position: relative;
+}
+#image-29,
+#image-30,
+#image-31,
+#image-32,
+#image-33,
+#image-34,
+#image-35,
+#image-36 {
+    opacity: 0;
+}
+
+#card-1:hover #image-29 {
+    opacity: 1;
+    transition: 500ms;
+}
+
+#card-2:hover #image-30 {
+    opacity: 1;
+    transition: 500ms;
+}
+
+#card-3:hover #image-31 {
+    opacity: 1;
+    transition: 500ms;
+}
+
+#card-4:hover #image-32 {
+    opacity: 1;
+    transition: 500ms;
+}
+
+#card-5:hover #image-33 {
+    opacity: 1;
+    transition: 500ms;
+}
+
+#card-6:hover #image-29 {
+    opacity: 1;
+    transition: 500ms;
+}
+
+#card-1:hover,
+#card-2:hover,
+#card-3:hover,
+#card-4:hover,
+#card-5:hover,
+#card-6:hover {
+    background-color: #101010;
+    color: white;
+    transition: 500ms;
+}
+#card-1:hover p,
+#card-2:hover p,
+#card-3:hover p,
+#card-4:hover p,
+#card-5:hover p,
+#card-6:hover p {
+    color: white;
+    transition: 500ms;
+}
+.pricing-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pricing-of-our-agency{
+    color: #303030;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0   ;
+
+}
+
+
