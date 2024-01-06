@@ -212,6 +212,8 @@ h1{
 }
 hr{
     width: 100%;
+    color: #1AC74A;
+    background-color: #1AC74A;
 }
 #desc{
     display: flex;
