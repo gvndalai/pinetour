@@ -297,7 +297,7 @@ li:hover{
     width: 100vw    ;
     background: #171717;
     align-items: center;
-    padding-bottom: 120px;
+    padding-bottom: 80px;
 }
 
 #ready{
@@ -350,7 +350,7 @@ li:hover{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding-top: 120px;
+    padding-top: 80px;
     max-width: 1200px;
 }
 
