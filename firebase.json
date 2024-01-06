@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "pinetour-21369",
+
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
+
